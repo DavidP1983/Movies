@@ -21,17 +21,17 @@ if (personalMovieDB.count >= 1 && personalMovieDB.count < 10) {
 }
 
 
-// for (let i = 0; i < 2; i++) {
+for (let i = 0; i < 2; i++) {
 
-//     const questions = prompt("One of the last movies I watched", ""),
-//           rate = prompt("Rate it", "");
-//     if (questions == null || questions.length > 6 || questions == '' || rate == null || rate == '') {
-//        i--;
-//     }else {
-//         personalMovieDB.movies[questions] =  rate;
-//     }
+    const questions = prompt("One of the last movies I watched", ""),
+          rate = prompt("Rate it", "");
+    if (questions == null || questions.length > 6 || questions == '' || rate == null || rate == '') {
+       i--;
+    }else {
+        personalMovieDB.movies[questions] =  rate;
+    }
 
-// }
+}
 
 // const firstQ = prompt("One of the last movies I watched", "");
 //  personalMovieDB.movies[firstQ] =  prompt("Rate it", "");
