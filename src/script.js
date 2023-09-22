@@ -8,7 +8,7 @@ function start() {
         numberOfFilms = +prompt("How many movies have you already watched?", "");
     }
 }
-// start();
+start();
 
 
 const personalMovieDB = {
@@ -31,7 +31,7 @@ function personalLevel() {
     }
 }
 
-// personalLevel();
+personalLevel();
 
 
 function repeatQuestions() {
@@ -47,7 +47,7 @@ function repeatQuestions() {
     }    
 }
 
-// repeatQuestions();
+repeatQuestions();
 
 function writeYourGenres(num) {
     for(let i = 0; i < num; i++) {
@@ -55,7 +55,7 @@ function writeYourGenres(num) {
     }
 }
 
-// writeYourGenres(3);
+writeYourGenres(3);
 
 
 function showMyDB(hidden) {
