@@ -50,6 +50,7 @@ const personalMovieDB = {
         // for (let i = 0; i < 2; i++) {
         //     if (genres == null || genres === '') {
         //         console.log('incorrect data');
+        //          i--;
         //     }else {
         //         personalMovieDB.genres = genres.split(', ');
         //     }
